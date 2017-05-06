@@ -7,7 +7,7 @@ Useful for netbooks with small screens.
 
 | With Maximus  | Without Maximus |
 |:-----:|:-----:|
-| ![Using Maximus](http://cdn.bitbucket.org/mathematicalcoffee/maximus-gnome-shell-extension/downloads/maximus.png) | ![Without Maximus (title bar shows)](http://cdn.bitbucket.org/mathematicalcoffee/maximus-gnome-shell-extension/downloads/no-maximus.png) |
+| ![Using Maximus](maximus.png) | ![Without Maximus (title bar shows)](no-maximus.png) |
 
 NOTE: with the titlebar of a window hidden, you may find it difficult to unmaximise/move a window.
 In this case, I recommend either remembering your system's keyboard shortcut for un/maximising a window (e.g. Alt+F10 on Fedora), or use the [Window Options GNOME shell extension](https://bitbucket.org/mathematicalcoffee/window-options-gnome-shell-extension) which adds a drop-down menu to the title bar in the top panel with these options (shameless plug, I wrote that one). You might also like the [Window Buttons extension](https://github.com/biox/Gnome-Shell-Window-Buttons-Extension) which adds the close, minimize, maximize buttons to the top panel.
