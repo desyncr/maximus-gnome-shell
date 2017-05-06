@@ -81,31 +81,17 @@ Add this in to `APP_LIST`.
 One-click install from [extensions.gnome.org](https://extensions.gnome.org/extension/354/maximus/)!
 
 ## From this website:
-1. Download the .zip file on the [Downloads page](https://bitbucket.org/mathematicalcoffee/maximus-gnome-shell-extension/downloads).
+1. Download the .zip file on the [Downloads page](https://github.org/desyncr/maximus-gnome-shell/releases).
 2. Open `gnome-tweak-tool`, go to "Shell Extensions", "Install Extension" and select the .zip file.
 
 ## From the repository:
 
-If using GNOME 3.4, 3.6, or 3.8, use the `gnome3.4` branch.
-Otherwise (GNOME 3.2), use the `stable` branch.
-
 ```
-hg clone ssh://hg@bitbucket.org/mathematicalcoffee/maximus-gnome-shell-extension
-hg up gnome3.4 # or `stable` if on GNOME 3.2
+git clone https://github.com/desyncr/maximus-gnome-shell
 cd maximus-gnome-shell-extension
-make # <-- VERY IMPORTANT
-cp -r maximus@mathematical.coffee.gmail.com ~/.local/share/gnome-shell/extensions
+make && make install
 # enable maximus if you haven't already:
 gnome-shell-extension-tool -e maximus@mathematical.coffee.gmail.com
 ```
 
-Now restart gnome-shell.
-
----
-
-# Branch Info (for developers)
-
-* 'stable' branch works with GNOME 3.2+. No fancy prefs widget.
-* 'gnome3.4' branch: GNOME3.4+ with prefs widget.
-* 'default' branch: the gnome3.4+ development branch (has prefs.js). i.e. dev branch for 'gnome3.4'.
-* 'polyglot-dev' branch: the gnome3.2+ development branch (same as above but no prefs.js). i.e. dev branch for 'stable'.
+Now restart gnome-shell. (Try `ALT+F2 + "r"` in Gnome+Xorg)
